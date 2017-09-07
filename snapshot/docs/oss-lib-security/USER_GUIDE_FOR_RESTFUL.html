@@ -1,0 +1,1464 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>RestFul应用接入lib-security · home1开源技术栈</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="张浩伦 Haolun Zhang">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="USER_GUIDE_FOR_TEMPLATE.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Part I</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../home1-oss/">
+            
+                <a href="../home1-oss/">
+            
+                    
+                    oss是什么
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../home1-oss/INTRODUCTION.html">
+            
+                <a href="../home1-oss/INTRODUCTION.html">
+            
+                    
+                    技术栈的软件工程pom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../oss-common-dependencies/">
+            
+                <a href="../oss-common-dependencies/">
+            
+                    
+                    技术栈依赖管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/">
+            
+                    
+                    spring-boot-1.4.x
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.1" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.1.RELEASE/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.1.RELEASE/">
+            
+                    
+                    spring-boot-1.4.1.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.2" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.2.RELEASE/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.2.RELEASE/">
+            
+                    
+                    spring-boot-1.4.2.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../home1-oss/CODESTYLE.html">
+            
+                <a href="../home1-oss/CODESTYLE.html">
+            
+                    
+                    oss的代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../home1-oss/GITFLOW_AND_PUBLISH.html">
+            
+                <a href="../home1-oss/GITFLOW_AND_PUBLISH.html">
+            
+                    
+                    oss的分支模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../home1-oss/GIT_FORK_TUTORIAL.html">
+            
+                <a href="../home1-oss/GIT_FORK_TUTORIAL.html">
+            
+                    
+                    git fork开发文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../home1-oss/GITINSPECT.html">
+            
+                <a href="../home1-oss/GITINSPECT.html">
+            
+                    
+                    各个开发者对项目的贡献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../home1-oss/MVNSITE.html">
+            
+                <a href="../home1-oss/MVNSITE.html">
+            
+                    
+                    如何使用oss为项目构建网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../home1-oss/GITBOOK.html">
+            
+                <a href="../home1-oss/GITBOOK.html">
+            
+                    
+                    如何生成oss的gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../home1-oss/CONTRIBUTION.html">
+            
+                <a href="../home1-oss/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../home1-oss/SONARQUBE.html">
+            
+                <a href="../home1-oss/SONARQUBE.html">
+            
+                    
+                    使用sonarqube评估代码质量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../home1-oss/THINGS_SHOULD_KNOW.html">
+            
+                <a href="../home1-oss/THINGS_SHOULD_KNOW.html">
+            
+                    
+                    oss开发者和用户应该知道的n件事
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../home1-oss/REFS.html">
+            
+                <a href="../home1-oss/REFS.html">
+            
+                    
+                    参考文献
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part II</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../oss-release/">
+            
+                <a href="../oss-release/">
+            
+                    
+                    oss-release依赖管理平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../oss-release/oss-release-spring-boot-1.4.1.RELEASE/">
+            
+                <a href="../oss-release/oss-release-spring-boot-1.4.1.RELEASE/">
+            
+                    
+                    oss-release-spring-boot-1.4.1.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../oss-release/CONTRIBUTION.html">
+            
+                <a href="../oss-release/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-release或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part III</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../oss-lib/">
+            
+                <a href="../oss-lib/">
+            
+                    
+                    oss-lib微服务程序库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../oss-lib/oss-lib-common/">
+            
+                <a href="../oss-lib/oss-lib-common/">
+            
+                    
+                    oss-lib-common
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../oss-lib-swagger/">
+            
+                <a href="../oss-lib-swagger/">
+            
+                    
+                    oss-lib-swagger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../oss-lib-webmvc/">
+            
+                <a href="../oss-lib-webmvc/">
+            
+                    
+                    oss-lib-webmvc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../oss-lib-errorhandle/">
+            
+                <a href="../oss-lib-errorhandle/">
+            
+                    
+                    oss-lib-errorhandle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="../oss-lib-errorhandle/INTRODUCTION.html">
+            
+                <a href="../oss-lib-errorhandle/INTRODUCTION.html">
+            
+                    
+                    oss-lib-errorhandle 简单上手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="../oss-lib-errorhandle/INTRODUCTION_DETAIL.html">
+            
+                <a href="../oss-lib-errorhandle/INTRODUCTION_DETAIL.html">
+            
+                    
+                    oss-lib-errorhandle 详细介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.3" data-path="../oss-lib-errorhandle/TARGET.html">
+            
+                <a href="../oss-lib-errorhandle/TARGET.html">
+            
+                    
+                    oss-lib-errorhandle 特性介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.4" data-path="../oss-lib-errorhandle/CONTRIBUTION.html">
+            
+                <a href="../oss-lib-errorhandle/CONTRIBUTION.html">
+            
+                    
+                    oss-lib-errorhandle 手动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.5" data-path="../oss-lib-errorhandle/SPRINGBOOTDOC.html">
+            
+                <a href="../oss-lib-errorhandle/SPRINGBOOTDOC.html">
+            
+                    
+                    oss-lib-errorhandle 官方文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../oss-lib-adminclient/">
+            
+                <a href="../oss-lib-adminclient/">
+            
+                    
+                    oss-lib-adminclient
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.5.1" data-path="../oss-lib-adminclient/ADMIN_CLIENT_CONFIGURATION.html">
+            
+                <a href="../oss-lib-adminclient/ADMIN_CLIENT_CONFIGURATION.html">
+            
+                    
+                    oss-admin客户端配置说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    oss-lib-security
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="3.1.6.1" data-path="USER_GUIDE_FOR_RESTFUL.html">
+            
+                <a href="USER_GUIDE_FOR_RESTFUL.html">
+            
+                    
+                    RestFul应用接入lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.2" data-path="USER_GUIDE_FOR_TEMPLATE.html">
+            
+                <a href="USER_GUIDE_FOR_TEMPLATE.html">
+            
+                    
+                    Template应用接入lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.3" data-path="ABOUT_ME.html">
+            
+                <a href="ABOUT_ME.html">
+            
+                    
+                    关于lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../oss-lib/oss-lib-test/">
+            
+                <a href="../oss-lib/oss-lib-test/">
+            
+                    
+                    oss-lib-test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../oss-lib-log4j2/">
+            
+                <a href="../oss-lib-log4j2/">
+            
+                    
+                    oss-lib-log4j2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part IV</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../ENVIRONMENT.md">
+            
+                <span>
+            
+                    
+                    oss微服务运行时环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../oss-eureka/SERVICE_DISCOVERY.md">
+            
+                <span>
+            
+                    
+                    服务发现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../DOCKER_INSTALL.md">
+            
+                <span>
+            
+                    
+                    如何安装docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../DOCKER_COMMANDS_AND_ISSUES.md">
+            
+                <span>
+            
+                    
+                    docker使用常见命令和常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../DOCKER_REGISTRY.md">
+            
+                <span>
+            
+                    
+                    在本地搭建docker的registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../oss-eureka/">
+            
+                <a href="../oss-eureka/">
+            
+                    
+                    oss-eureka微服务发现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.5.1" data-path="../oss-eureka/GRACEFUL_SHUTDOWN.html">
+            
+                <a href="../oss-eureka/GRACEFUL_SHUTDOWN.html">
+            
+                    
+                    如何优雅关闭服务/应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.2" data-path="../oss-eureka/SELF_PRESERVATION.html">
+            
+                <a href="../oss-eureka/SELF_PRESERVATION.html">
+            
+                    
+                    自我保护模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.3" data-path="../oss-eureka/PERFORMANCE.html">
+            
+                <a href="../oss-eureka/PERFORMANCE.html">
+            
+                    
+                    性能测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.4" data-path="../oss-eureka/CONTRIBUTION.html">
+            
+                <a href="../oss-eureka/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-eureka或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../oss-admin/">
+            
+                <a href="../oss-admin/">
+            
+                    
+                    oss-admin微服务监控管理中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.6.1" data-path="../oss-admin/INTRODUCTION.html">
+            
+                <a href="../oss-admin/INTRODUCTION.html">
+            
+                    
+                    oss-admin功能介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.2" data-path="../oss-admin/OSS_ADMIN_SOLUTIONS.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_SOLUTIONS.html">
+            
+                    
+                    oss-admin开发遇到的问题、解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.3" data-path="../oss-admin/OSS_ADMIN_SECURITY.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_SECURITY.html">
+            
+                    
+                    oss-admin security说明文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.4" data-path="../oss-admin/OSS_ADMIN_ABOUT_CONFIG.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_ABOUT_CONFIG.html">
+            
+                    
+                    oss-admin服务端配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../oss-configserver/">
+            
+                <a href="../oss-configserver/">
+            
+                    
+                    oss-configserver微服务配置中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.7.1" data-path="../oss-configserver/INTRODUCTION_OF_YML.html">
+            
+                <a href="../oss-configserver/INTRODUCTION_OF_YML.html">
+            
+                    
+                    yml配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.2" data-path="../oss-configserver/MANUAL_FOR_USER.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_USER.html">
+            
+                    
+                    用户手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.3" data-path="../oss-configserver/MANUAL_FOR_ADMIN.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_ADMIN.html">
+            
+                    
+                    管理员手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.4" data-path="../oss-configserver/MANUAL_FOR_OPS.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_OPS.html">
+            
+                    
+                    运维手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.5" data-path="../oss-configserver/PERMISSIONS.html">
+            
+                <a href="../oss-configserver/PERMISSIONS.html">
+            
+                    
+                    安全机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.6" data-path="../oss-configserver/PERFORMANCE.html">
+            
+                <a href="../oss-configserver/PERFORMANCE.html">
+            
+                    
+                    性能测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.7" data-path="../oss-configserver/CONTRIBUTION.html">
+            
+                <a href="../oss-configserver/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-configserver或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../oss-configlint/">
+            
+                <a href="../oss-configlint/">
+            
+                    
+                    oss-configlint配置文件检查工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="../oss-keygen/">
+            
+                <a href="../oss-keygen/">
+            
+                    
+                    oss-keygen配置密钥生成工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10" data-path="../LOCALNEXUS.md">
+            
+                <span>
+            
+                    
+                    在本地搭建nexus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="../MVNSITE.md">
+            
+                <span>
+            
+                    
+                    在本地搭建maven网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part V</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../oss-todomvc/">
+            
+                <a href="../oss-todomvc/">
+            
+                    
+                    oss-todomvc
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../oss-todomvc/oss-todomvc-sdk/">
+            
+                <a href="../oss-todomvc/oss-todomvc-sdk/">
+            
+                    
+                    oss-todomvc-sdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../oss-todomvc/oss-todomvc-security/">
+            
+                <a href="../oss-todomvc/oss-todomvc-security/">
+            
+                    
+                    oss-todomvc-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../oss-todomvc/oss-todomvc-jquery/">
+            
+                <a href="../oss-todomvc/oss-todomvc-jquery/">
+            
+                    
+                    oss-todomvc-jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../oss-todomvc/oss-todomvc-react/">
+            
+                <a href="../oss-todomvc/oss-todomvc-react/">
+            
+                    
+                    oss-todomvc-react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../oss-todomvc/oss-todomvc-thymeleaf/">
+            
+                <a href="../oss-todomvc/oss-todomvc-thymeleaf/">
+            
+                    
+                    oss-todomvc-thymeleaf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../oss-todomvc/CONTRIBUTION.md">
+            
+                <span>
+            
+                    
+                    如何构建oss-todomvc或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../oss-archetype/">
+            
+                <a href="../oss-archetype/">
+            
+                    
+                    oss-archetype项目骨架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../oss-archetype/oss-archetype-micro-service/">
+            
+                <a href="../oss-archetype/oss-archetype-micro-service/">
+            
+                    
+                    微服务项目骨架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../oss-archetype/oss-archetype-micro-service-config/">
+            
+                <a href="../oss-archetype/oss-archetype-micro-service-config/">
+            
+                    
+                    微服务配置repo骨架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part VI</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../oss-todomvc/oss-todomvc-app/FEIGN_TUTORIAL.html">
+            
+                <a href="../oss-todomvc/oss-todomvc-app/FEIGN_TUTORIAL.html">
+            
+                    
+                    附录 feign和ribbon
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../oss-todomvc/oss-todomvc-app/CONTRIBUTION.html">
+            
+                <a href="../oss-todomvc/oss-todomvc-app/CONTRIBUTION.html">
+            
+                    
+                    https服务搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >RestFul应用接入lib-security</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="restful&#x5E94;&#x7528;&#x63A5;&#x5165;lib-security">RestFul&#x5E94;&#x7528;&#x63A5;&#x5165;lib-security</h1>
+<h2 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h2>
+<blockquote>
+<p>RestFul&#x65B9;&#x5F0F;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x7EA6;&#x5B9A;&#x5927;&#x90E8;&#x5206;&#x7684;&#x63A5;&#x53E3;&#x90FD;&#x662F;RestFul&#x63A5;&#x53E3;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x9650;&#x5236;&#x5168;&#x90E8;&#x63A5;&#x53E3;&#x90FD;&#x5FC5;&#x987B;&#x662F;Restful&#x63A5;&#x53E3;&#xFF0C;&#x5141;&#x8BB8;Template&#x65B9;&#x5F0F;&#x7684;&#x63A5;&#x53E3;&#x5B58;&#x5728;&#x3002;</p>
+</blockquote>
+<h4 id="&#x63A5;&#x5165;&#x793A;&#x4F8B;">&#x63A5;&#x5165;&#x793A;&#x4F8B;</h4>
+<h5 id="applicationyml&#x914D;&#x7F6E;">application.yml&#x914D;&#x7F6E;</h5>
+<pre><code>app:
+  security:RestFul
+    enabled: true                # &#x662F;&#x5426;&#x542F;&#x7528;
+    basePath: &apos;/auth&apos;            # auth&#x76F8;&#x5173;&#x7684;url&#x524D;&#x7F00;&#xFF0C;&#x4E0B;&#x9762;&#x76F8;&#x5173;&#x7684;url&#x9ED8;&#x8BA4;&#x90FD;&#x4F1A;&#x62FC;&#x63A5;&#x6B64;&#x524D;&#x7F00;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; /auth
+    loginProcessingUrl: &apos;/login&apos; # form&#x8868;&#x5355;&#x63D0;&#x4EA4;&#x7684;&#x7528;&#x6237;&#x767B;&#x5F55;url&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; /login
+    logoutUrl: &apos;/logout&apos;         # &#x7528;&#x6237;&#x767B;&#x51FA;&#x7684;url&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; /logout
+    loginPublicKeyUrl: /login/publicKey # &#x83B7;&#x53D6;RSA&#x516C;&#x94A5;&#x7684;url&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; /login/publicKey
+    defaultTestUser: test_user   # &#x9ED8;&#x8BA4;&#x6D4B;&#x8BD5;&#x7528;&#x6237;
+    cookieKey: &apos;keySpec:value&apos;   # &#x5BF9;cookie&#x8FDB;&#x884C;aes&#x52A0;&#x5BC6;&#x8BA1;&#x7B97;&#x7528;&#x7684;key
+    jwtKey: &apos;keySpec:value&apos;      # &#x5BF9;jwt&#x8FDB;&#x884C;&#x7B7E;&#x540D;&#x8BA1;&#x7B97;&#x7528;&#x7684;key
+</code></pre><h5 id="&#x7528;&#x6237;&#x6A21;&#x578B;">&#x7528;&#x6237;&#x6A21;&#x578B;</h5>
+<blockquote>
+<p>&#x7EE7;&#x627F;<code>cn.home1.oss.lib.security.api.AbstractUser</code>&#x7C7B;&#x5E76;&#x5B9E;&#x73B0;&#x7236;&#x7C7B;&#x62BD;&#x8C61;&#x65B9;&#x6CD5;&#xFF0C;&#x6309;&#x9700;&#x8986;&#x5199;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;&#x3002;&#x5173;&#x4E8E;&#x989D;&#x5916;&#x7684;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6269;&#x5C55;<code>public Map&lt;String, Object&gt; 
+getProperties()</code>&#x6765;&#x5B9E;&#x73B0; </p>
+</blockquote>
+<h5 id="service&#x5B9E;&#x73B0;">service&#x5B9E;&#x73B0;</h5>
+<ul>
+<li><code>cn.home1.oss.lib.security.api.BaseUserDetailsAuthenticationProvider</code>&#x7C7B;&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x4E86;<code>UserDetailsService</code>&#x63A5;&#x53E3;&#x5E76;hook&#x4E86;<code>ContextRefreshedEvent</code>&#x4E8B;&#x4EF6;&#x3002;</li>
+<li>lib-security&#x4E0D;&#x5047;&#x5B9A;&#x7528;&#x6237;&#x7684;&#x5B58;&#x50A8;&#x903B;&#x8F91;&#xFF0C;&#x7528;&#x6237;&#x53EA;&#x9700;&#x91CD;&#x5199; findByName&#x3001;save&#x3001;delete&#x7B49;&#x65B9;&#x6CD5;&#x5373;&#x53EF;&#x3002;</li>
+</ul>
+<blockquote>
+<p>&#x53EF;&#x4EE5;&#x91CD;&#x5199;&#x8BE5;&#x7C7B;&#x7684; testUsers &#x65B9;&#x6CD5;&#xFF0C;&#x751F;&#x6210;&#x6D4B;&#x8BD5;&#x7528;&#x6237;&#x65B9;&#x4FBF;&#x6D4B;&#x8BD5;&#x3002;
+lib-security&#x914D;&#x7F6E;&#x4E2D;&#x7684;defaultTestUser&#x5C5E;&#x6027;&#x9700;&#x8981;&#x914D;&#x5408;&#x8BE5;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#xFF0C;&#x6D4B;&#x8BD5;&#x7528;&#x6237;&#x5FC5;&#x987B;&#x5728;&#x7528;&#x6237;&#x63D0;&#x4F9B;&#x7684;&#x6D4B;&#x8BD5;&#x7528;&#x6237;&#x5217;&#x8868;&#x4E2D;&#x8FDB;&#x884C;&#x9009;&#x62E9;&#x3002;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x4F1A;&#x5C06;&#x6D4B;&#x8BD5;&#x7528;&#x6237;&#x63D2;&#x5165;&#x5230;&#x6301;&#x4E45;&#x5316;&#x5B58;&#x50A8;&#x6216;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;&#x5177;&#x4F53;&#x4F9D;&#x8D56;&#x4E8E;&#x7528;&#x6237;&#x5B9E;&#x73B0;&#x7684;<code>UserDetailsService</code>&#x4E2D;&#x7684;<code>save(final User user)</code> &#x65B9;&#x6CD5;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;tsetUser&#x65B9;&#x6CD5;&#x5982;&#x4E0B;:  </p>
+</blockquote>
+<pre><code>@Override
+protected List&lt;User&gt; testUsers() {
+    return ImmutableList.of(
+  User.userBuilder().email(&quot;user@somedomain.com&quot;).enabled(true) //
+    .name(&quot;test_user&quot;).password(&quot;user_pass&quot;) //
+    .roles(ImmutableSet.of(UserRole.ROLE_USER_AUTHORITY)) //
+    .build(),
+  User.userBuilder().email(&quot;admin@somedomain.com&quot;).enabled(true) //
+    .name(&quot;test_admin&quot;).password(&quot;admin_pass&quot;) //
+    .roles(ImmutableSet.of(UserRole.ROLE_ADMIN_AUTHORITY)) //
+    .build());
+}
+</code></pre><h5 id="&#x6D4B;&#x8BD5;&#x767B;&#x5F55;">&#x6D4B;&#x8BD5;&#x767B;&#x5F55;</h5>
+<pre><code>  curl -i -X POST -L -c COOKIE --data &quot;username=test_user&amp;password=user_pass&quot; http://127.0.0.1:8080:8080/auth/login
+
+  HTTP&#x8FD4;&#x56DE;&#x503C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;    
+
+  HTTP/1.1 200 OK
+  Date: Tue, 06 Dec 2016 12:26:35 GMT
+  Set-Cookie: generic_user=QPBhNLLca0YvYt0l29hFCP1foCi8ca2FPy7uk0On80TlEY5%2BqUasIzEp6rjc7crxahUJIdbGig9f66iyf2WbpVGTxFwY44hA04Gz6Z4M77P9fhNYyYx7XrUh8BC1J8l%2Fx0FIcxaQ5ASwNB%2FVSu00xJh8%2BizCYvdXBumKckzrclXrEvDlvhkAZzo4jWgm%2BsrbpUDA13S1GzfspG9fOzMBaZ7ais2NsHq%2FWL49NOzMcHXxJKruHeK7jIUk%2B1KNv5RpDZ%2BKtBAWysWKjvgTG%2B3xgbGRjWArCQZwi2YK2AY1Pj6MDeRfdEsdUwY%2F%2B3GejqWAdhYIvQMKJFEZ4KDzJXeX5wqYuYC%2FkwxnVG1hCrIQr7IUoOkXGUMRXoAvtMRKVTLD2creOLCbvDM3ig2%2F3VxYBxyCG0nrwHpkzmDe33E0JpQb1v0hxvYhnC7yRAQwUIYiiVoGRKaK9dAuYtAJIDKDM33R3%2FbZkpN%2Bt7on5%2FEDFwh3qkWVif3F0Iy%2FquyAsQKm2QZ7v5Iiod9EVwEcK3hy%2FoXr6Z874Zg%2B8vtr9EZ4QvYucxHren1apojB0NFCxIuUBvIEX0dZd4qNQsITFWi4JR51FBMfy7LXOY%2BqspfSZzLQKWkg%2BBQEtVaaXh1hcDfcc8YKau5AHN69Z8pKjm%2Bl%2BWi%2Fx2q5dz2sYoJ9%2FZLn1HymgjefyyoQspvKaK3vOxIWd%2FvJa5EsfknAoIMKDrTN3A1TuNK%2B5EZz8UprSikJt1N6xV0FY3aoOQjyKhxkaQ%2BZmNj27bjc6X1f%2BbuIBmV85%2BuN3ZhINcDV9hSfqdJqu06aOuUGq8icuL14h6leyugrBsPF2kbiLppy%2Fj27Srdag5xfx6J%2BJtaKwVc1IWuTy63fWMhc%2Bk%2Fzuks6wd594OEU;Version=1;Path=/;Expires=Tue, 06-Dec-2016 13:26:35 GMT;Max-Age=3600;HttpOnly;Comment=generic_user
+  Expires: Thu, 01 Jan 1970 00:00:00 GMT
+  X-Auth-Token: r%2BrlCMT9lZSHW%2BoOp2Lp2OXvR%2Bq%2FrOVGIBe39RxZIkZgz7lC8WrjXhI%2B40nN89W2aB0JZO4X7sT0%2BWxo6Aglv%2FqyvwjUYB8Q2SCLqqx%2BmpaoOXBXLbwQQqdG7EBGc8MPl%2BkWR4g69pZEFurtMUEOSYu9dEXpKN2yVyFGo9EcX1kE9YfKvNTBrSyS1S2Vh0l1SFtwKVBFUJ5XQSrX%2FoSn0syaIAw8dPPetDHns9s0AfYyqStbcH5uOlr3QVTsN%2Fx4jS0%2F9%2FlK9tIvBFQCdhqcNsmgZXTqM36Zxw2Y4sV6Ri6u22c2Hk6Y4jPWVcs%2F3KfLzQmD4b1zK2U2yxYQ6gqEeDBdDzyke9ozqRJuelT%2BK7G28zbANXRr91q%2FgGlG3AkUYo7Ak%2FBhq88O8z799iDfmHxca1Jfb8jKy1qGJn77jwIKxYpZzEpZNm1T%2BkWpMe0lRvqZ2eHg7VYFKWiHgPQleNwdosxbmOrbZqtEejNVutrgVN%2Fm1JytPnTldZzueyexIw2MrFDZvZSrRuzt0CMWoCA9nlriTaUksILZjFuJeeGjGHhzQXI1X3xPhet6qk8pkrj4BNiHKZyiAcOw6mtyeLiKuyVoWWMbBN3mJsU7LWpj3Kg18%2Bu%2BcF%2F%2BbPH%2BDiz%2BPrnhyYEeHOeavN8uOkvQU%2Fws12VSkY8zC9SlS3RIfZSh2RYoVFXScQgDXjPYxFCJjULEV5ARfqmqEyOXNm%2Fp2YnEG3H%2F4EQ8nJMTDJlD7UjK%2FVxRSgTzlFyNSVTkRuDV9mSXyVlpdxStMgCbCcVYOKDKA5MI%2Fhtk7kB%2BsBjXjXE2cPGt3%2B9A2%2FKOj%2BL8pkFR%2BO8vDxTFuP4f4Wy%2BZvb6G4iHnwBF1kSnnEHVCPDjsvJKvvDYg7eGGAWCcNMDi9JL
+  Content-Type: application/json;charset=UTF-8
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: SAMEORIGIN
+  Transfer-Encoding: chunked
+
+  {&quot;authorities&quot;:[&quot;ROLE_USER&quot;,&quot;PRIVILEGE_DATA_VIEW&quot;],&quot;enabled&quot;:true,&quot;id&quot;:&quot;1&quot;,&quot;name&quot;:&quot;test_user&quot;,&quot;password&quot;:&quot;[PROTECTED]&quot;,&quot;username&quot;:&quot;test_user&quot;}
+</code></pre><blockquote>
+<p>lib-security&#x5206;&#x522B;&#x5728; <code>Cookie</code> &#x548C; <code>X-Auth-Token</code> header&#x4E2D;&#xFF0C;&#x8FD4;&#x56DE;&#x4E86;token&#x4FE1;&#x606F;&#x3002;&#x5728;Response Body&#x4E2D;&#x8FD4;&#x56DE;&#x7528;&#x6237;&#x57FA;&#x672C;&#x4FE1;&#x606F;&#x3002;</p>
+</blockquote>
+<h5 id="&#x8D44;&#x6E90;&#x8BBF;&#x95EE;">&#x8D44;&#x6E90;&#x8BBF;&#x95EE;</h5>
+<p>&#x652F;&#x6301;&#x5BA2;&#x6237;&#x7AEF;&#x5728;&#x8BF7;&#x6C42;&#x8D44;&#x6E90;&#x65F6;&#xFF0C;&#x4EE5;&#x5982;&#x4E0B;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x643A;&#x5E26;token&#x4FE1;&#x606F;(token&#x4FE1;&#x606F;&#x5373;&#x7528;&#x6237;&#x767B;&#x5F55;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x5728;cookie&#x548C;X-Auth-Token&#x4E2D;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;)&#x3002;  </p>
+<blockquote>
+<p>Cookie&#x65B9;&#x5F0F;</p>
+</blockquote>
+<pre><code>curl -i -X GET -L --COOKIE &quot;generic_user=WFaaCs%2Fp2l62F%2BxfJi%2BZ6CPAYDHWzGR0pYO8Fz3tb7KC%2BrYn5bMd9SEUAeWRxC3XcKBqwhulTmNaiO4lnTz0L9mS49SaNbY6P3f0ApVXcIJASqTberscebJbm%2BLixkkHXWUsBt5Hwlm8ibmYynvm9j9ukWe2DzL%2Fy38EI5Aoa3KxQ1Izti2E3nolmhUNz4Nxfc4xu3JB2RXsjhvICOiCo1hTa1LxgKnORe8BsHmqFFV8C9LCCyiQOH%2FMH2dSUKK1bjDLcPjfu4D4f2ZcadghhOjJ0DAh51wrUoi0vo8gwj86XpKg0UZOEHfMdAZYpeW%2FC9ly1zG8th29hDlBfTK9iOkvgOVP4NDY0X%2BmJtbZjDlaB79jaDzACUiMndFWsdIMxFC1Lo09U9QYhcSarO6zJPR2Af1teu%2BScb8m51gmeNo%2FLnJfu2gf867ndfzE4cC5KWlwD9OlVWcF%2FEm0tiLQtM1SRs7HNxn7Q4t0jZOHeCuIPr9POhuK6WT0%2Fy3csvG%2BLLrr6AluFfQWHa0nlKhKopv5x%2BFhrwFZM5xfJfxsIsT%2FH%2FAHBTcNRogI5P4pGx5Es6WyTNi%2BhICan%2BjAXFMmSSWsaMlS2eel4B3%2BPJF5ERafLFJm%2FkXQRx9bKgKGQ%2BquE%2FPiDb2ugocC5EdQBaK1SBTwlFWH6B5tl1QQgEPHMZS2B8QK4s0DfnmV3gnm0RtFEQ6e49%2FdvGBe1LJc8tJ1pDy%2FmOTV%2F%2F7v4VkleGQnBhH%2FTURwFHmn%2B4Eu82k%2BvfYryLG6fuMIBwmRwB8BW5ELaoaEu9urQR%2FG6A8i0gkkPyuuJMpLOFZIIsz51wx6mgVzP1CZ0SYObBseIj9tMKtiZJP6DfvTmxtCHuo0ktlCvW%2FoP1vi0dfoELS9qYbWzZu0;Version=1;Path=/;Expires=Tue, 06-Dec-2016 13:40:56 GMT;Max-Age=3600;HttpOnly;Comment=generic_user&quot; http://127.0.0.1:8080:8080/auth/login/rsaPublicKey
+
+HTTP&#x8FD4;&#x56DE;&#x503C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;  
+
+HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2016 13:00:10 GMT
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+
+{&quot;spec&quot;:&quot;RSA1024_PUB_X509&quot;,&quot;value&quot;:&quot;MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRXunHa+5hw+L39UZoIFhPwPR9gBvdlEvlXAH4biP+GNb8OH77OjMsfjfs3dXs3QqwXMajJUKZFpX1v+w/ilZ9muvty4/wfQlx5qy305Ui6mRqpIQKKxkwgAS+LTVCh+AeFWfB9G/OVA/khp73VQ3/IPoqgcPG+e/RD/kdFwTozwIDAQAB&quot;,&quot;present&quot;:true}
+</code></pre><blockquote>
+<p>X-Auth-Token&#x65B9;&#x5F0F;</p>
+</blockquote>
+<pre><code> curl -i -X GET -L --HEADER &quot;X-Auth-Token: KTzX7b%2BYce9STH4LdI%2BreV1UcwTXd7ACgROYNOaLf9RoBdOLC9s4fkYM%2ByJLHzZfzjUUoWbpbwGS6%2Ft8yLJpXgin7BGAgGaMTXoi%2B7%2BM8ue4rcWecgssIuzxftn%2BTvniprnYiEGqt3rfG0lqTSptkR6PZ%2F3laPkMsFSm6clDi4vQ4uYUSfkUwhC7EFLSERD9aa%2B1kjJDpXiuQVx9f37qSa%2FtT7OTcoVIwXy%2FQCcx6D4m7Ksdu7G0p%2FF7vyhXqcZ0fQNL%2FeCM9bH%2F%2FOzpPo0ryaa7EcYhVHpw2XLV%2FC6uxgrrwrx488%2BgSYqcVhHiFSdRFUii8m7eH0pPtW%2FNvuJl067FhT5QU5k%2BH%2F4vxUrqcdXEgThXxzmmIWOP0mYVLHM9TuXgOSdEjxUi9Dp4AsDIHe1%2FbQIvEYXJSVIFAv1g7iU31YSLBdyQXcMMjW1LFd2UOeu6EmigGKUJUQpES4KN4eKsN9RZYzGxQZr1LZQFksSyUY%2Fz6gtKS%2Ff3Ux7T9VrU1TfbI6XDV8%2Bi1pC%2Bm601eb6Vb1jx9QIboIGypVIE1FRVDaKNMw6TtPTZ1LhulipgrmfI8NZw23EwsE8v8Mywm3rWxHdh9waDhIfPAfBUODIUWXAjuACP1estvWF7st8SdQ%2B26gxPQ%2FZzbc%2B5hvBDuBLrUtRXZcIM6H65tkU3LRmaCxJ7JHROxzqFvTsk0Gk57oCVk7t%2BTKU2xA2z8SdDu1nmiU1rjqydv0uz8iANg%2FdRPRUqH8VHhoo28YeNrGUzl%2FvoF7nwGHIvgM%2BxxbC3c4VW%2B3422bq22%2B6B3kkeJVPtCUo0NhZWffssM4lAohrYA0Jzx4fpPD5Y00qf6%2By%2FDNDFsOO9kIU5LSMU4Lfn1VzfR%2BnpO77HHmfjRYKT2Grk&quot; http://127.0.0.1:8080:8080/auth/login/rsaPublicKey
+
+HTTP&#x8FD4;&#x56DE;&#x503C;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;
+
+HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2016 13:02:42 GMT
+Content-Type: application/json;charset=UTF-8
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+
+{&quot;spec&quot;:&quot;RSA1024_PUB_X509&quot;,&quot;value&quot;:&quot;MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRXunHa+5hw+L39UZoIFhPwPR9gBvdlEvlXAH4biP+GNb8OH77OjMsfjfs3dXs3QqwXMajJUKZFpX1v+w/ilZ9muvty4/wfQlx5qy305Ui6mRqpIQKKxkwgAS+LTVCh+AeFWfB9G/OVA/khp73VQ3/IPoqgcPG+e/RD/kdFwTozwIDAQAB&quot;,&quot;present&quot;:true}
+</code></pre><h5 id="&#x6D4B;&#x8BD5;&#x767B;&#x51FA;">&#x6D4B;&#x8BD5;&#x767B;&#x51FA;</h5>
+<pre><code>curl -i -X GET -L -b COOKIE -c COOKIE http://127.0.0.1:8080:8080/auth/logout
+
+&#x8FD4;&#x56DE;&#x503C;&#x5982;&#x4E0B;&#xFF1A;
+
+HTTP/1.1 200 OK
+Date: Tue, 01 Nov 2016 14:26:17 GMT
+Set-Cookie: generic_user=;Version=1;Path=/;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Comment=generic_user
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+</code></pre><h5 id="&#x793A;&#x4F8B;&#x4EE3;&#x7801;">&#x793A;&#x4F8B;&#x4EE3;&#x7801;</h5>
+<blockquote>
+<p><a href="https://github.com/home1-oss/oss-samples/tree/develop/oss-todomvc/oss-todomvc-app" target="_blank">todomvc-app</a></p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: oss-lib-security">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="USER_GUIDE_FOR_TEMPLATE.html" class="navigation navigation-next " aria-label="Next page: Template应用接入lib-security">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"RestFul应用接入lib-security","level":"3.1.6.1","depth":3,"next":{"title":"Template应用接入lib-security","level":"3.1.6.2","depth":3,"path":"docs/oss-lib-security/USER_GUIDE_FOR_TEMPLATE.md","ref":"docs/oss-lib-security/USER_GUIDE_FOR_TEMPLATE.md","articles":[]},"previous":{"title":"oss-lib-security","level":"3.1.6","depth":2,"path":"docs/oss-lib-security/README.md","ref":"docs/oss-lib-security/README.md","articles":[{"title":"RestFul应用接入lib-security","level":"3.1.6.1","depth":3,"path":"docs/oss-lib-security/USER_GUIDE_FOR_RESTFUL.md","ref":"docs/oss-lib-security/USER_GUIDE_FOR_RESTFUL.md","articles":[]},{"title":"Template应用接入lib-security","level":"3.1.6.2","depth":3,"path":"docs/oss-lib-security/USER_GUIDE_FOR_TEMPLATE.md","ref":"docs/oss-lib-security/USER_GUIDE_FOR_TEMPLATE.md","articles":[]},{"title":"关于lib-security","level":"3.1.6.3","depth":3,"path":"docs/oss-lib-security/ABOUT_ME.md","ref":"docs/oss-lib-security/ABOUT_ME.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"张浩伦 Haolun Zhang","pdf":{"pageNumbers":true,"fontSize":8,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":56,"left":56,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"home1开源技术栈","language":"zh-hans","gitbook":">= 1.0.1","direction":"ltr"},"file":{"path":"docs/oss-lib-security/USER_GUIDE_FOR_RESTFUL.md","mtime":"2017-09-07T17:29:38.277Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-07T17:30:05.370Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,1705 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>oss-eureka微服务发现 · home1开源技术栈</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="张浩伦 Haolun Zhang">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="GRACEFUL_SHUTDOWN.html" />
+    
+    
+    <link rel="prev" href="../DOCKER_REGISTRY.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Part I</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../home1-oss/">
+            
+                <a href="../home1-oss/">
+            
+                    
+                    oss是什么
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../home1-oss/INTRODUCTION.html">
+            
+                <a href="../home1-oss/INTRODUCTION.html">
+            
+                    
+                    技术栈的软件工程pom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../oss-common-dependencies/">
+            
+                <a href="../oss-common-dependencies/">
+            
+                    
+                    技术栈依赖管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/">
+            
+                    
+                    spring-boot-1.4.x
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1.1" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.1.RELEASE/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.1.RELEASE/">
+            
+                    
+                    spring-boot-1.4.1.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.1.2" data-path="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.2.RELEASE/">
+            
+                <a href="../oss-common-dependencies/oss-common-dependencies-spring-boot-1.4.x/oss-common-dependencies-spring-boot-1.4.2.RELEASE/">
+            
+                    
+                    spring-boot-1.4.2.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../home1-oss/CODESTYLE.html">
+            
+                <a href="../home1-oss/CODESTYLE.html">
+            
+                    
+                    oss的代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../home1-oss/GITFLOW_AND_PUBLISH.html">
+            
+                <a href="../home1-oss/GITFLOW_AND_PUBLISH.html">
+            
+                    
+                    oss的分支模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../home1-oss/GIT_FORK_TUTORIAL.html">
+            
+                <a href="../home1-oss/GIT_FORK_TUTORIAL.html">
+            
+                    
+                    git fork开发文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../home1-oss/GITINSPECT.html">
+            
+                <a href="../home1-oss/GITINSPECT.html">
+            
+                    
+                    各个开发者对项目的贡献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../home1-oss/MVNSITE.html">
+            
+                <a href="../home1-oss/MVNSITE.html">
+            
+                    
+                    如何使用oss为项目构建网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../home1-oss/GITBOOK.html">
+            
+                <a href="../home1-oss/GITBOOK.html">
+            
+                    
+                    如何生成oss的gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../home1-oss/CONTRIBUTION.html">
+            
+                <a href="../home1-oss/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../home1-oss/SONARQUBE.html">
+            
+                <a href="../home1-oss/SONARQUBE.html">
+            
+                    
+                    使用sonarqube评估代码质量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../home1-oss/THINGS_SHOULD_KNOW.html">
+            
+                <a href="../home1-oss/THINGS_SHOULD_KNOW.html">
+            
+                    
+                    oss开发者和用户应该知道的n件事
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../home1-oss/REFS.html">
+            
+                <a href="../home1-oss/REFS.html">
+            
+                    
+                    参考文献
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part II</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../oss-release/">
+            
+                <a href="../oss-release/">
+            
+                    
+                    oss-release依赖管理平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../oss-release/oss-release-spring-boot-1.4.1.RELEASE/">
+            
+                <a href="../oss-release/oss-release-spring-boot-1.4.1.RELEASE/">
+            
+                    
+                    oss-release-spring-boot-1.4.1.RELEASE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../oss-release/CONTRIBUTION.html">
+            
+                <a href="../oss-release/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-release或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part III</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../oss-lib/">
+            
+                <a href="../oss-lib/">
+            
+                    
+                    oss-lib微服务程序库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../oss-lib/oss-lib-common/">
+            
+                <a href="../oss-lib/oss-lib-common/">
+            
+                    
+                    oss-lib-common
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../oss-lib-swagger/">
+            
+                <a href="../oss-lib-swagger/">
+            
+                    
+                    oss-lib-swagger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../oss-lib-webmvc/">
+            
+                <a href="../oss-lib-webmvc/">
+            
+                    
+                    oss-lib-webmvc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../oss-lib-errorhandle/">
+            
+                <a href="../oss-lib-errorhandle/">
+            
+                    
+                    oss-lib-errorhandle
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="../oss-lib-errorhandle/INTRODUCTION.html">
+            
+                <a href="../oss-lib-errorhandle/INTRODUCTION.html">
+            
+                    
+                    oss-lib-errorhandle 简单上手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="../oss-lib-errorhandle/INTRODUCTION_DETAIL.html">
+            
+                <a href="../oss-lib-errorhandle/INTRODUCTION_DETAIL.html">
+            
+                    
+                    oss-lib-errorhandle 详细介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.3" data-path="../oss-lib-errorhandle/TARGET.html">
+            
+                <a href="../oss-lib-errorhandle/TARGET.html">
+            
+                    
+                    oss-lib-errorhandle 特性介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.4" data-path="../oss-lib-errorhandle/CONTRIBUTION.html">
+            
+                <a href="../oss-lib-errorhandle/CONTRIBUTION.html">
+            
+                    
+                    oss-lib-errorhandle 手动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.5" data-path="../oss-lib-errorhandle/SPRINGBOOTDOC.html">
+            
+                <a href="../oss-lib-errorhandle/SPRINGBOOTDOC.html">
+            
+                    
+                    oss-lib-errorhandle 官方文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../oss-lib-adminclient/">
+            
+                <a href="../oss-lib-adminclient/">
+            
+                    
+                    oss-lib-adminclient
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.5.1" data-path="../oss-lib-adminclient/ADMIN_CLIENT_CONFIGURATION.html">
+            
+                <a href="../oss-lib-adminclient/ADMIN_CLIENT_CONFIGURATION.html">
+            
+                    
+                    oss-admin客户端配置说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../oss-lib-security/">
+            
+                <a href="../oss-lib-security/">
+            
+                    
+                    oss-lib-security
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.6.1" data-path="../oss-lib-security/USER_GUIDE_FOR_RESTFUL.html">
+            
+                <a href="../oss-lib-security/USER_GUIDE_FOR_RESTFUL.html">
+            
+                    
+                    RestFul应用接入lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.2" data-path="../oss-lib-security/USER_GUIDE_FOR_TEMPLATE.html">
+            
+                <a href="../oss-lib-security/USER_GUIDE_FOR_TEMPLATE.html">
+            
+                    
+                    Template应用接入lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.3" data-path="../oss-lib-security/ABOUT_ME.html">
+            
+                <a href="../oss-lib-security/ABOUT_ME.html">
+            
+                    
+                    关于lib-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../oss-lib/oss-lib-test/">
+            
+                <a href="../oss-lib/oss-lib-test/">
+            
+                    
+                    oss-lib-test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../oss-lib-log4j2/">
+            
+                <a href="../oss-lib-log4j2/">
+            
+                    
+                    oss-lib-log4j2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part IV</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../ENVIRONMENT.md">
+            
+                <span>
+            
+                    
+                    oss微服务运行时环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="SERVICE_DISCOVERY.md">
+            
+                <span>
+            
+                    
+                    服务发现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../DOCKER_INSTALL.md">
+            
+                <span>
+            
+                    
+                    如何安装docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../DOCKER_COMMANDS_AND_ISSUES.md">
+            
+                <span>
+            
+                    
+                    docker使用常见命令和常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../DOCKER_REGISTRY.md">
+            
+                <span>
+            
+                    
+                    在本地搭建docker的registry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    oss-eureka微服务发现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.5.1" data-path="GRACEFUL_SHUTDOWN.html">
+            
+                <a href="GRACEFUL_SHUTDOWN.html">
+            
+                    
+                    如何优雅关闭服务/应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.2" data-path="SELF_PRESERVATION.html">
+            
+                <a href="SELF_PRESERVATION.html">
+            
+                    
+                    自我保护模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.3" data-path="PERFORMANCE.html">
+            
+                <a href="PERFORMANCE.html">
+            
+                    
+                    性能测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.4" data-path="CONTRIBUTION.html">
+            
+                <a href="CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-eureka或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../oss-admin/">
+            
+                <a href="../oss-admin/">
+            
+                    
+                    oss-admin微服务监控管理中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.6.1" data-path="../oss-admin/INTRODUCTION.html">
+            
+                <a href="../oss-admin/INTRODUCTION.html">
+            
+                    
+                    oss-admin功能介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.2" data-path="../oss-admin/OSS_ADMIN_SOLUTIONS.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_SOLUTIONS.html">
+            
+                    
+                    oss-admin开发遇到的问题、解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.3" data-path="../oss-admin/OSS_ADMIN_SECURITY.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_SECURITY.html">
+            
+                    
+                    oss-admin security说明文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.4" data-path="../oss-admin/OSS_ADMIN_ABOUT_CONFIG.html">
+            
+                <a href="../oss-admin/OSS_ADMIN_ABOUT_CONFIG.html">
+            
+                    
+                    oss-admin服务端配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../oss-configserver/">
+            
+                <a href="../oss-configserver/">
+            
+                    
+                    oss-configserver微服务配置中心
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.7.1" data-path="../oss-configserver/INTRODUCTION_OF_YML.html">
+            
+                <a href="../oss-configserver/INTRODUCTION_OF_YML.html">
+            
+                    
+                    yml配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.2" data-path="../oss-configserver/MANUAL_FOR_USER.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_USER.html">
+            
+                    
+                    用户手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.3" data-path="../oss-configserver/MANUAL_FOR_ADMIN.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_ADMIN.html">
+            
+                    
+                    管理员手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.4" data-path="../oss-configserver/MANUAL_FOR_OPS.html">
+            
+                <a href="../oss-configserver/MANUAL_FOR_OPS.html">
+            
+                    
+                    运维手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.5" data-path="../oss-configserver/PERMISSIONS.html">
+            
+                <a href="../oss-configserver/PERMISSIONS.html">
+            
+                    
+                    安全机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.6" data-path="../oss-configserver/PERFORMANCE.html">
+            
+                <a href="../oss-configserver/PERFORMANCE.html">
+            
+                    
+                    性能测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.7" data-path="../oss-configserver/CONTRIBUTION.html">
+            
+                <a href="../oss-configserver/CONTRIBUTION.html">
+            
+                    
+                    如何构建oss-configserver或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../oss-configlint/">
+            
+                <a href="../oss-configlint/">
+            
+                    
+                    oss-configlint配置文件检查工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="../oss-keygen/">
+            
+                <a href="../oss-keygen/">
+            
+                    
+                    oss-keygen配置密钥生成工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10" data-path="../LOCALNEXUS.md">
+            
+                <span>
+            
+                    
+                    在本地搭建nexus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="../MVNSITE.md">
+            
+                <span>
+            
+                    
+                    在本地搭建maven网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part V</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../oss-todomvc/">
+            
+                <a href="../oss-todomvc/">
+            
+                    
+                    oss-todomvc
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../oss-todomvc/oss-todomvc-sdk/">
+            
+                <a href="../oss-todomvc/oss-todomvc-sdk/">
+            
+                    
+                    oss-todomvc-sdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../oss-todomvc/oss-todomvc-security/">
+            
+                <a href="../oss-todomvc/oss-todomvc-security/">
+            
+                    
+                    oss-todomvc-security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../oss-todomvc/oss-todomvc-jquery/">
+            
+                <a href="../oss-todomvc/oss-todomvc-jquery/">
+            
+                    
+                    oss-todomvc-jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../oss-todomvc/oss-todomvc-react/">
+            
+                <a href="../oss-todomvc/oss-todomvc-react/">
+            
+                    
+                    oss-todomvc-react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../oss-todomvc/oss-todomvc-thymeleaf/">
+            
+                <a href="../oss-todomvc/oss-todomvc-thymeleaf/">
+            
+                    
+                    oss-todomvc-thymeleaf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../oss-todomvc/CONTRIBUTION.md">
+            
+                <span>
+            
+                    
+                    如何构建oss-todomvc或贡献代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../oss-archetype/">
+            
+                <a href="../oss-archetype/">
+            
+                    
+                    oss-archetype项目骨架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../oss-archetype/oss-archetype-micro-service/">
+            
+                <a href="../oss-archetype/oss-archetype-micro-service/">
+            
+                    
+                    微服务项目骨架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../oss-archetype/oss-archetype-micro-service-config/">
+            
+                <a href="../oss-archetype/oss-archetype-micro-service-config/">
+            
+                    
+                    微服务配置repo骨架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part VI</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../oss-todomvc/oss-todomvc-app/FEIGN_TUTORIAL.html">
+            
+                <a href="../oss-todomvc/oss-todomvc-app/FEIGN_TUTORIAL.html">
+            
+                    
+                    附录 feign和ribbon
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../oss-todomvc/oss-todomvc-app/CONTRIBUTION.html">
+            
+                <a href="../oss-todomvc/oss-todomvc-app/CONTRIBUTION.html">
+            
+                    
+                    https服务搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >oss-eureka微服务发现</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="oss-eureka">oss-eureka</h1>
+<h3 id="&#x4F7F;&#x7528;docker-&#x542F;&#x52A8;&#x5355;&#x70B9;">&#x4F7F;&#x7528;docker &#x542F;&#x52A8;&#x5355;&#x70B9;</h3>
+<pre><code>export EUREKA_VERSION=&quot;latest&quot;
+export HOST_IP_ADDRESS=&quot;${&#x7ED9;EUREKA&#x5BA2;&#x6237;&#x7AEF;&#x8BBF;&#x95EE;&#x7684;IP&#x5730;&#x5740;}&quot;
+export EUREKA_INSTANCE_NONSECUREPORT=&quot;8761&quot;
+docker-compose up -d
+</code></pre><h3 id="&#x4F7F;&#x7528;docker-&#x542F;&#x52A8;&#x5355;&#x673A;&#x96C6;&#x7FA4;-&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x7528;">&#x4F7F;&#x7528;docker &#x542F;&#x52A8;&#x5355;&#x673A;&#x96C6;&#x7FA4; (&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x7528;)</h3>
+<pre><code>export EUREKA_VERSION=&quot;latest&quot;
+export HOST_IP_ADDRESS=&quot;${&#x7ED9;EUREKA&#x5BA2;&#x6237;&#x7AEF;&#x8BBF;&#x95EE;&#x7684;IP&#x5730;&#x5740;}&quot;
+docker-compose -f docker-compose-local-cluster.yml up -d
+</code></pre><h3 id="&#x4F7F;&#x7528;docker-&#x542F;&#x52A8;&#x96C6;&#x7FA4;-&#x751F;&#x4EA7;&#x73AF;&#x5883;">&#x4F7F;&#x7528;docker &#x542F;&#x52A8;&#x96C6;&#x7FA4; (&#x751F;&#x4EA7;&#x73AF;&#x5883;)</h3>
+<pre><code># &#x5728;&#x5168;&#x90E8;&#x4E3B;&#x673A;&#x4E0A;&#x6267;&#x884C;
+export EUREKA_VERSION=&quot;latest&quot;
+export EUREKA_PEER1_IP_ADDRESS=&quot;${&#x4E3B;&#x673A;1&#x7ED9;EUREKA&#x5BA2;&#x6237;&#x7AEF;&#x8BBF;&#x95EE;&#x7684;IP&#x5730;&#x5740;}&quot;
+export EUREKA_PEER1_PORT=&quot;8761&quot;
+export EUREKA_PEER2_IP_ADDRESS=&quot;${&#x4E3B;&#x673A;2&#x7ED9;EUREKA&#x5BA2;&#x6237;&#x7AEF;&#x8BBF;&#x95EE;&#x7684;IP&#x5730;&#x5740;}&quot;
+export EUREKA_PEER2_PORT=&quot;8762&quot;
+export EUREKA_PEER3_IP_ADDRESS=&quot;${&#x4E3B;&#x673A;3&#x7ED9;EUREKA&#x5BA2;&#x6237;&#x7AEF;&#x8BBF;&#x95EE;&#x7684;IP&#x5730;&#x5740;}&quot;
+export EUREKA_PEER3_PORT=&quot;8763&quot;
+
+# &#x5728;&#x4E3B;&#x673A;1&#x4E0A;&#x6267;&#x884C;
+export PEER=&quot;peer1&quot;
+export HOST_IP_ADDRESS=&quot;${EUREKA_PEER1_IP_ADDRESS}&quot;
+export EUREKA_INSTANCE_NONSECUREPORT=&quot;${EUREKA_PEER1_PORT}&quot;
+docker-compose -f docker-compose-eureka-peer.yml up -d
+
+# &#x5728;&#x4E3B;&#x673A;2&#x4E0A;&#x6267;&#x884C;
+export PEER=&quot;peer2&quot;
+export HOST_IP_ADDRESS=&quot;${EUREKA_PEER2_IP_ADDRESS}&quot;
+export EUREKA_INSTANCE_NONSECUREPORT=&quot;${EUREKA_PEER2_PORT}&quot;
+docker-compose -f docker-compose-eureka-peer.yml up -d
+
+# &#x5728;&#x4E3B;&#x673A;3&#x4E0A;&#x6267;&#x884C;
+export PEER=&quot;peer3&quot;
+export HOST_IP_ADDRESS=&quot;${EUREKA_PEER3_IP_ADDRESS}&quot;
+export EUREKA_INSTANCE_NONSECUREPORT=&quot;${EUREKA_PEER3_PORT}&quot;
+docker-compose -f docker-compose-eureka-peer.yml up -d
+</code></pre><h3 id="&#x4F7F;&#x7528;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x6216;java&#x547D;&#x4EE4;&#x8FD0;&#x884C;">&#x4F7F;&#x7528;&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x6216;java&#x547D;&#x4EE4;&#x8FD0;&#x884C;</h3>
+<p>&#x6CE8;&#x610F;&#x8BBE;&#x7F6E;&#x5408;&#x7406;&#x7684; VM&#x9009;&#x9879;(-Dspring.profiles.active=) &#x548C; &#x73AF;&#x5883;&#x53D8;&#x91CF;<br>&#x5177;&#x4F53;&#x9700;&#x8BBE;&#x7F6E;&#x54EA;&#x4E9B;&#x53D8;&#x91CF; &#x8BF7;&#x53C2;&#x8003; <code>docker-compose-eureka-*.yml</code> &#x548C; <code>src/main/resources/application.yml</code></p>
+<h3 id="&#x914D;&#x7F6E;&#x53C2;&#x6570;">&#x914D;&#x7F6E;&#x53C2;&#x6570;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53D8;&#x91CF;&#x540D;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>server.port</td>
+<td>8080</td>
+<td>eurekaServer&#x76D1;&#x542C;&#x7AEF;&#x53E3;</td>
+</tr>
+<tr>
+<td>spring.application.name</td>
+<td></td>
+<td>&#x5E94;&#x7528;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.client.register-with-eureka</td>
+<td>TRUE</td>
+<td>&#x662F;&#x5426;&#x5C06;&#x670D;&#x52A1;&#x53D1;&#x5E03;&#x5230;Eureka Server</td>
+</tr>
+<tr>
+<td>eureka.client.fetch-registry</td>
+<td>TRUE</td>
+<td>&#x662F;&#x5426;&#x4ECE;EurekaServer&#x83B7;&#x53D6;Instance&#x4FE1;&#x606F;</td>
+</tr>
+<tr>
+<td>eureka.client.serviceUrl.defaultZone</td>
+<td></td>
+<td>&#x9ED8;&#x8BA4;&#x6CE8;&#x518C;&#x670D;&#x52A1;&#x5730;&#x5740;&#xFF0C;&#x591A;&#x4E2A;&#x5730;&#x5740;&#x4E4B;&#x95F4;&#x7528;,&#x5206;&#x9694;</td>
+</tr>
+<tr>
+<td>eureka.client.registry-fetch-interval-seconds</td>
+<td>30</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x95F4;&#x9694;&#x591A;&#x957F;&#x65F6;&#x95F4;&#x4ECE;Eureka Server&#x83B7;&#x53D6;&#x6CE8;&#x518C;&#x4FE1;&#x606F;</td>
+</tr>
+<tr>
+<td>eureka.client.enabled</td>
+<td>TRUE</td>
+<td>Ereka clien&#x662F;&#x5426;&#x53EF;&#x7528;&#xFF0C;&#x901A;&#x5E38;&#x6D4B;&#x8BD5;&#x65F6;&#x4E0D;&#x9700;&#x8981;&#x542F;&#x7528;&#x771F;&#x5B9E;&#x670D;&#x52A1;&#x65F6;&#x9700;&#x8981;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-connection-idle-timeout-seconds</td>
+<td>30</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x4E00;&#x4E2A;&#x94FE;&#x63A5;Eureka Server&#x7684;Http &#x94FE;&#x63A5;&#x5728;&#x5173;&#x95ED;&#x524D;&#x53EF;&#x4EE5;&#x4FDD;&#x6301;Idle&#x72B6;&#x6001;&#x7684;&#x6700;&#x5927;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-server-connect-timeout-seconds</td>
+<td>5</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x540C;Eureka Server&#x4E4B;&#x95F4;&#x521B;&#x5EFA;&#x94FE;&#x63A5;&#x7684;&#x8D85;&#x65F6;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-server-read-timeout-seconds</td>
+<td>8</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x8BFB;&#x6570;&#x636E;&#x8D85;&#x65F6;&#x65F6;&#x957F;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-server-total-connections</td>
+<td>200</td>
+<td>Eureka Client&#x94FE;&#x63A5;Server&#x7684;&#x6700;&#x5927;&#x94FE;&#x63A5;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-server-total-connections-per-host</td>
+<td>50</td>
+<td>&#x5355;&#x4E2A;Eureka Client&#x4E0E;&#x5355;&#x4E2A;Server&#x4E4B;&#x95F4;&#x7684;&#x6700;&#x5927;&#x94FE;&#x63A5;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.client.eureka-service-url-poll-interval-seconds</td>
+<td>0</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x95F4;&#x9694;&#x591A;&#x957F;&#x65F6;&#x95F4;&#x77E5;&#x9053;Server&#x7684;&#x72B6;&#x6001;&#x53D8;&#x5316;&#xFF08;&#x589E;&#x3001;&#x5220;&#xFF09;</td>
+</tr>
+<tr>
+<td>eureka.client.filter-only-up-instances</td>
+<td>TRUE</td>
+<td>&#x662F;&#x5426;&#x53EA;&#x5C55;&#x793A;&#x5904;&#x4E8E;&#x5B58;&#x6D3B;&#x72B6;&#x6001;&#x7684;&#x5E94;&#x7528;</td>
+</tr>
+<tr>
+<td>eureka.client.g-zip-content</td>
+<td>TRUE</td>
+<td>client&#x4ECE;Server&#x83B7;&#x5F97;&#x7684;&#x5185;&#x5BB9;&#x662F;&#x5426;&#x8FDB;&#x884C;&#x4E86;&#x538B;&#x7F29;&#x5904;&#x7406;&#x3002;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x8FDB;&#x884C;&#x4E86;&#x538B;&#x7F29;&#x5904;&#x7406;</td>
+</tr>
+<tr>
+<td>eureka.client.heartbeat-executor-thread-pool-size</td>
+<td>2</td>
+<td>&#x6267;&#x884C;&#x5FC3;&#x8DF3;&#x7684;&#x7EBF;&#x7A0B;&#x6C60;&#x521D;&#x59CB;&#x503C;&#x5927;&#x5C0F;</td>
+</tr>
+<tr>
+<td>eureka.client.initial-instance-info-replication-interval-seconds</td>
+<td>40</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x542F;&#x52A8;&#x540E;&#xFF0C;&#x95F4;&#x9694;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#x540E;&#x5F00;&#x59CB;&#x590D;&#x5236;instance info&#x5230;Server</td>
+</tr>
+<tr>
+<td>eureka.client.instance-info-replication-interval-seconds</td>
+<td>30</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x6CA1;&#x95F4;&#x9694;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#x590D;&#x5236;instance info&#x53D8;&#x52A8;&#x5230;Server  </td>
+</tr>
+<tr>
+<td>eureka.client.log-delta-diff</td>
+<td>FALSE</td>
+<td>&#x662F;&#x5426;&#x8BB0;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x4E4B;&#x95F4;&#x5173;&#x4E8E;&#x6CE8;&#x518C;&#x4FE1;&#x606F;&#x7684;&#x53D8;&#x5316;</td>
+</tr>
+<tr>
+<td>eureka.client.on-demand-update-status-change</td>
+<td>TRUE</td>
+<td>&#x901A;&#x8FC7;ApplicationInfoManager&#x4FEE;&#x6539;&#x7684;&#x72B6;&#x6001;&#x53D8;&#x5316;&#x662F;&#x5426;&#x8FDC;&#x7AEF;&#x670D;&#x52A1;&#x5668;</td>
+</tr>
+<tr>
+<td>eureka.client.prefer-same-zone-eureka</td>
+<td>TRUE</td>
+<td>instance&#x662F;&#x5426;&#x91C7;&#x7528;&#x540C;&#x4E00;&#x4E2A;Zone&#x7684;Ereka Server</td>
+</tr>
+<tr>
+<td>eureka.dashboard.enabled</td>
+<td>TRUE</td>
+<td>&#x662F;&#x5426;&#x5F00;&#x542F;Dashboard</td>
+</tr>
+<tr>
+<td>eureka.dashboard.path</td>
+<td>/</td>
+<td>Dashboad&#x6839;&#x8DEF;&#x5F84;&#xFF08;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#xFF09;</td>
+</tr>
+<tr>
+<td>eureka.instance.app-group-name</td>
+<td></td>
+<td>&#x6CE8;&#x518C;&#x5728;Eureka&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x7EC4;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.instance.appname</td>
+<td>unknown</td>
+<td>&#x6CE8;&#x518C;&#x5728;Eureka&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.instance.health-check-url</td>
+<td></td>
+<td>&#x5065;&#x5EB7;&#x68C0;&#x67E5;Url&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#xFF0C;&#x5982;&#x63D0;&#x4F9B;&#x6B64;&#x5730;&#x5740;&#xFF0C;&#x5065;&#x5EB7;&#x68C0;&#x67E5;&#x4F1A;&#x4F18;&#x5148;&#x91C7;&#x7528;&#x6B64;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.health-check-url-path</td>
+<td>/health</td>
+<td>&#x5065;&#x5EB7;&#x68C0;&#x67E5;&#x76F8;&#x5BF9;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.home-page-url</td>
+<td></td>
+<td>instance&#x4E3B;&#x9875;</td>
+</tr>
+<tr>
+<td>eureka.instance.home-page-url-path</td>
+<td>&#xFF0F;</td>
+<td>instance&#x76F8;&#x5BF9;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.hostname</td>
+<td></td>
+<td>&#x5728;&#x91C7;&#x7528;&#x57DF;&#x540D;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x8BBE;&#x7F6E;&#x7684;&#x8BDD;&#xFF0C;&#x4F1A;&#x9009;&#x53D6;&#x8FD9;&#x4E2A;</td>
+</tr>
+<tr>
+<td>eureka.instance.initial-status</td>
+<td></td>
+<td>&#x6CE8;&#x518C;&#x5230;&#x8FDC;&#x7AEF;Eureka&#x4E0A;&#x7684;&#x521D;&#x59CB;&#x72B6;&#x6001;</td>
+</tr>
+<tr>
+<td>eureka.instance.instance-enabled-onit</td>
+<td>FALSE</td>
+<td>instance&#x6CE8;&#x518C;&#x540E;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x7ACB;&#x523B;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x3002;&#x901A;&#x5E38;&#x6CE8;&#x518C;&#x540E;&#x5728;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#x524D;&#x8FD8;&#x9700;&#x8981;&#x505A;&#x4E9B;&#x5904;&#x7406;</td>
+</tr>
+<tr>
+<td>eureka.instance.instance-id</td>
+<td></td>
+<td>instance&#x552F;&#x4E00;id&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;ip:appName:port</td>
+</tr>
+<tr>
+<td>eureka.instance.ip-address</td>
+<td></td>
+<td>&#x6307;&#x5B9A;ip&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.lease-renewal-interval-in-seconds</td>
+<td>30</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;eureka client&#x53D1;&#x9001;&#x5FC3;&#x8DF3;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;</td>
+</tr>
+<tr>
+<td>eureka.instance.lease-expiration-duration-in-seconds</td>
+<td>90</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;instance&#x88AB;Eureka Server&#x79FB;&#x9664;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;</td>
+</tr>
+<tr>
+<td>eureka.instance.metadata-map</td>
+<td></td>
+<td>metadata name/value&#x952E;&#x503C;&#x961F;</td>
+</tr>
+<tr>
+<td>eureka.instance.namespace</td>
+<td>eureka</td>
+<td>&#x67E5;&#x8BE2;&#x5C5E;&#x6027;&#x7684;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#xFF0C;Spring Cloud&#x4E2D;&#x5DF2;&#x5FFD;&#x7565;</td>
+</tr>
+<tr>
+<td>eureka.instance.non-secure-port</td>
+<td>80</td>
+<td>&#x5F53;&#x670D;&#x52A1;&#x662F;EurekaServer&#x65F6;&#xFF0C;&#x9ED8;&#x8BA4;&#x91C7;&#x7528;EurekaServer&#x7684;&#x7AEF;&#x53E3;</td>
+</tr>
+<tr>
+<td>eureka.instance.non-secure-port-enabled</td>
+<td>TRUE</td>
+<td>&#x662F;&#x5426;&#x5F00;&#x542F;http&#x8BBF;&#x95EE;</td>
+</tr>
+<tr>
+<td>eureka.instance.prefer-ip-address</td>
+<td>FALSE</td>
+<td>&#x662F;&#x5426;&#x4F18;&#x5148;&#x91C7;&#x7528;ip&#xFF0C;&#x9ED8;&#x8BA4;&#x4F18;&#x5148;&#x91C7;&#x7528;&#x57DF;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.instance.secure-health-check-url</td>
+<td></td>
+<td>&#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x4E0B;&#x5065;&#x5EB7;&#x68C0;&#x67E5;Url&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#xFF0C;&#x5982;&#x63D0;&#x4F9B;&#x6B64;&#x5730;&#x5740;&#xFF0C;&#x5065;&#x5EB7;&#x68C0;&#x67E5;&#x4F1A;&#x4F18;&#x5148;&#x91C7;&#x7528;&#x6B64;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.secure-port</td>
+<td>443</td>
+<td>&#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x4E0B;&#x76D1;&#x542C;&#x7AEF;&#x53E3;</td>
+</tr>
+<tr>
+<td>eureka.instance.secure-port-enabled</td>
+<td>FALSE</td>
+<td>&#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x76D1;&#x542C;&#x7AEF;&#x53E3;&#x662F;&#x5426;&#x751F;&#x6548;</td>
+</tr>
+<tr>
+<td>eureka.instance.secure-virtual-host-name</td>
+<td></td>
+<td>&#x5B89;&#x5168;&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.instance.status-page-url</td>
+<td></td>
+<td>&#x72B6;&#x6001;&#x9875;&#x9762;&#x7EDD;&#x5BF9;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>eureka.instance.status-page-url-path</td>
+<td>/info</td>
+<td>&#x72B6;&#x6001;&#x9875;&#x9762;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;</td>
+</tr>
+<tr>
+<td>eureka.instance.virtual-host-name</td>
+<td></td>
+<td>&#x865A;&#x62DF;&#x4E3B;&#x673A;&#x540D;</td>
+</tr>
+<tr>
+<td>eureka.server.batch-replication</td>
+<td>FALSE</td>
+<td>&#x662F;&#x5426;&#x6279;&#x91CF;&#x590D;&#x5236;</td>
+</tr>
+<tr>
+<td>eureka.server.max-idle-thread-age-in-minutes-for-peer-replication</td>
+<td>15</td>
+<td>&#x5355;&#x4F4D;&#x5206;&#xFF0C;&#x8282;&#x70B9;&#x95F4;&#x8D1F;&#x8D23;&#x590D;&#x5236;&#x4FE1;&#x606F;&#x7684;&#x7EBF;&#x7A0B;&#x7684;&#x6700;&#x5927;&#x7A7A;&#x95F2;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>eureka.server.max-idle-thread-in-minutes-age-for-status-replication</td>
+<td>10</td>
+<td>&#x5355;&#x4F4D;&#x5206;&#xFF0C;&#x8282;&#x70B9;&#x95F4;&#x8D1F;&#x8D23;&#x590D;&#x5236;&#x72B6;&#x6001;&#x7684;&#x7EBF;&#x7A0B;&#x7684;&#x6700;&#x5927;&#x7A7A;&#x95F2;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>eureka.server.max-threads-for-peer-replication</td>
+<td>20</td>
+<td>&#x8D1F;&#x8D23;&#x8282;&#x70B9;&#x95F4;&#x590D;&#x5236;&#x7684;&#x6700;&#x5927;&#x7EBF;&#x7A0B;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.server.max-threads-for-status-replication</td>
+<td>1</td>
+<td>&#x8D1F;&#x8D23;&#x72B6;&#x6001;&#x590D;&#x5236;&#x7684;&#x6700;&#x5927;&#x7EBF;&#x7A0B;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.server.max-time-for-replication</td>
+<td>30000</td>
+<td>&#x590D;&#x5236;&#x7684;&#x6700;&#x5927;&#x65F6;&#x957F;</td>
+</tr>
+<tr>
+<td>eureka.server.min-threads-for-peer-replication</td>
+<td>5</td>
+<td>&#x8D1F;&#x8D23;&#x8282;&#x70B9;&#x95F4;&#x590D;&#x5236;&#x7684;&#x6700;&#x5C0F;&#x7EBF;&#x7A0B;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.server.min-threads-for-status-replication</td>
+<td>1</td>
+<td>&#x8D1F;&#x8D23;&#x72B6;&#x6001;&#x590D;&#x5236;&#x7684;&#x6700;&#x5C0F;&#x7EBF;&#x7A0B;&#x6570;</td>
+</tr>
+<tr>
+<td>eureka.server.number-of-replication-retries</td>
+<td>5</td>
+<td>&#x590D;&#x5236;&#x5931;&#x8D25;&#x540E;&#x91CD;&#x65B0;&#x5C1D;&#x8BD5;&#x7684;&#x6B21;&#x6570;&#x9650;&#x5236;</td>
+</tr>
+<tr>
+<td>eureka.server.peer-node-connect-timeout-ms</td>
+<td>200</td>
+<td>&#x5355;&#x4F4D;ms&#xFF0C;&#x8282;&#x70B9;&#x95F4;&#x94FE;&#x63A5;&#x8D85;&#x65F6;&#x65F6;&#x957F;</td>
+</tr>
+<tr>
+<td>eureka.server.peer-node-connection-idle-timeout-seconds</td>
+<td>30</td>
+<td>&#x5355;&#x4F4D;s&#xFF0C;&#x8282;&#x70B9;&#x94FE;&#x63A5;&#x7A7A;&#x95F2;&#x72B6;&#x6001;&#x65F6;&#x957F;</td>
+</tr>
+<tr>
+<td>eureka.server.peer-node-read-timeout-ms</td>
+<td>200</td>
+<td>&#x5355;&#x4F4D;ms&#xFF0C;&#x8282;&#x70B9;&#x8BFB;&#x8D85;&#x65F6;&#x65F6;&#x957F;</td>
+</tr>
+<tr>
+<td>eureka.server.peer-node-total-connections</td>
+<td>1000</td>
+<td>&#x8282;&#x70B9;&#x603B;&#x94FE;&#x63A5;&#x6570;&#x4E0A;&#x9650;</td>
+</tr>
+<tr>
+<td>eureka.server.peer-node-total-connections-per-host</td>
+<td>500</td>
+<td>&#x8282;&#x70B9;&#x4E0E;&#x5355;&#x4E2A;&#x4E3B;&#x673A;&#x4E4B;&#x95F4;&#x7684;&#x94FE;&#x63A5;&#x6570;&#x4E0A;&#x9650;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../DOCKER_REGISTRY.md" class="navigation navigation-prev " aria-label="Previous page: 在本地搭建docker的registry">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="GRACEFUL_SHUTDOWN.html" class="navigation navigation-next " aria-label="Next page: 如何优雅关闭服务/应用">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"oss-eureka微服务发现","level":"4.1.5","depth":2,"next":{"title":"如何优雅关闭服务/应用","level":"4.1.5.1","depth":3,"path":"docs/oss-eureka/GRACEFUL_SHUTDOWN.md","ref":"docs/oss-eureka/GRACEFUL_SHUTDOWN.md","articles":[]},"previous":{"title":"在本地搭建docker的registry","level":"4.1.4","depth":2,"path":"docs/DOCKER_REGISTRY.md","ref":"docs/DOCKER_REGISTRY.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"张浩伦 Haolun Zhang","pdf":{"pageNumbers":true,"fontSize":8,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":56,"left":56,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"home1开源技术栈","language":"zh-hans","gitbook":">= 1.0.1","direction":"ltr"},"file":{"path":"docs/oss-eureka/README.md","mtime":"2017-09-07T17:29:38.113Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-07T17:30:05.370Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
